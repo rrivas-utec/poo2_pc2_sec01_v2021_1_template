@@ -17,7 +17,7 @@ void question_3_2() {
     auto right_branch = bt2.add_right(bt2.get_root(), 7);
     bt2.add_left(right_branch, 4);
     // Verificar si es heap
-    cout << boolalpha << is_max_heap (bt2) << endl; // true
+    cout << boolalpha << bt2.is_max_heap () << endl; // true
 }
 
 TEST_CASE("Question #3_2") {
